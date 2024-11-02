@@ -1,5 +1,7 @@
 # Task tracker 
 
+#### https://roadmap.sh/projects/task-tracker
+
 is a project used to track and manage your tasks. In this task, you will build a simple command line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
 
 ## Requirements
@@ -22,3 +24,12 @@ Here are some constraints to guide the implementation:
 * Use the native file system module of your programming language to interact with the JSON file.
 * Do not use any external libraries or frameworks to build this project.
 * Ensure to handle errors and edge cases gracefully.
+
+## How to run
+
+`mvn clean install`
+
+cd into the target directory and run the jar file with the following command
+
+`java -jar target/task-tracker-1.0-SNAPSHOT.jar <option> <taskid> <taskdescription>
+`
